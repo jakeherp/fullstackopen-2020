@@ -1,5 +1,5 @@
-import React from 'react'
-import Person from './person'
+import React from 'react';
+import Person from './person';
 
 const Persons = ({ filteredContacts }) => {
   return (
@@ -8,7 +8,7 @@ const Persons = ({ filteredContacts }) => {
         <Person name={name} number={number} />
       ))}
     </>
-  )
-}
+  );
+};
 
-export default Persons
+export default Persons;
